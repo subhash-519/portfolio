@@ -21,7 +21,7 @@ import PROJECT_IMG_3 from "../assets/images/rentify-image.png";
 import PROJECT_IMG_4 from "../assets/images/ai-careerguided-image.png"
 import PROJECT_IMG_5 from "../assets/images/weather-app-image.png";
 import PROJECT_IMG_6 from "../assets/images/budget-tracker-image.png";
-import PROJECT_IMG_7 from "../assets/images/project-7.png";
+// import PROJECT_IMG_7 from "../assets/images/project-7.png"
 
 export const SKILLS_CATEGORY = [
     {
