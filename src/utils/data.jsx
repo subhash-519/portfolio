@@ -16,11 +16,11 @@ import {
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 import PORTFOLIO from "../assets/images/portfolio.png";
-import PROJECT_IMG_2 from "../assets/images/project-2.png";
-import PROJECT_IMG_3 from "../assets/images/project-3.png";
-// import PROJECT_IMG_4 from "../assets/images/project-4.png"
-import PROJECT_IMG_5 from "../assets/images/project-5.png";
-import PROJECT_IMG_6 from "../assets/images/project-6.png";
+import HEALTH_HABIT from "../assets/images/health-habit-image.png";
+import PROJECT_IMG_3 from "../assets/images/rentify-image.png";
+import PROJECT_IMG_4 from "../assets/images/ai-careerguided-image.png"
+import PROJECT_IMG_5 from "../assets/images/weather-app-image.png";
+import PROJECT_IMG_6 from "../assets/images/budget-tracker-image.png";
 import PROJECT_IMG_7 from "../assets/images/project-7.png";
 
 export const SKILLS_CATEGORY = [
@@ -103,84 +103,84 @@ export const PROJECTS = [
         description:
             "A responsive personal portfolio built with React, Tailwind CSS, Framer Motion, Lucide React, and React Icons. It features smooth animations, theme toggle for light/dark mode, and a clean, modern design that adapts seamlessly to all devices.",
         image: PORTFOLIO,
-        tags: ["React", "Tailwind", "Framer motion", "Lucide React", "React Icons"],
-        liveUrl: "subhash519-portfolio.netlify.app",
-        githubUrl: "#",
+        tags: ["React.js", "Tailwind CSS", "Framer motion", "Lucide React", "React Icons"],
+        liveUrl: "https://subhash519-portfolio.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/portfolio",
         featured: true,
         category: "Frontend",
     },
     {
         id: 2,
-        title: "Blog App with AI Post Generator",
+        title: "Health & Habit Tracker",
         description:
-            "A full-stack blog app using the MERN stack — with full Markdown support, tag filtering, and an integrated AI writing assistant.",
-        image: PROJECT_IMG_2,
-        tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-        liveUrl: "https://youtu.be/tUnGudIBBjQ",
-        githubUrl: "#",
+            "A simple and responsive Health & Habit Tracker built with HTML, CSS, and JavaScript. It allows users to track daily habits, monitor progress, and store data using LocalStorage, ensuring all progress is saved even after refreshing or closing the browser.",
+        image: HEALTH_HABIT,
+        tags: ["HTML", "CSS", "Javascript", "Localstorage", "Apexcharts"],
+        liveUrl: "https://subhash519-health-and-habit-tracker.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/Health-and-Habits",
         featured: true,
-        category: "Full Stack",
+        category: "Frontend",
     },
     {
         id: 3,
-        title: "Task Management App",
+        title: "Rentify - Smart Property Rental Platform",
         description:
-            "Collaborative project management tool with real-time updates, team chat, and advanced analytics dashboard.",
+            "A responsive property rental web app built with React, Tailwind, and Firebase. Rentify allows users to browse, and manage rental properties with real-time database updates, secure authentication, user-friendly interface.",
         image: PROJECT_IMG_3,
-        tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-        liveUrl: "https://youtu.be/fZK57PxKC-0",
-        githubUrl: "#",
+        tags: ["React.js", "Tailwind CSS", "Firebase", "Security"],
+        liveUrl: "https://subhash519-property-rental.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/Hotel-Room-Rentify",
         featured: true,
         category: "Web App",
     },
-    // {
-    //     id: 4,
-    //     title: "AI-Powered Interview Prep App",
-    //     description:
-    //         "A smart AI-powered Interview Preparation App using the MERN stack — along with the Gemini API for interview question generation.",
-    //     image: PROJECT_IMG_4,
-    //     tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-    //     liveUrl: "https://youtu.be/yKB9oYM-ao4",
-    //     githubUrl: "#",
-    //     featured: false,
-    //     category: "Web App",
-    // },
+    {
+        id: 4,
+        title: "AI Career Guidance & Skill Recommendation Platform",
+        description:
+            "An AI-powered career guidance platform built with React.js, Tailwind CSS, and LocalStorage. It analyzes user skills and interests to suggest ideal career paths and learning resources. Features include skill-gap charts, responsive UI, and personalized recommendations.",
+        image: PROJECT_IMG_4,
+        tags: ["React.js", "Tailwind CSS", "Chart.js", "LocalStorage"],
+        liveUrl: "https://subhash519-career-guidance.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/AI-Career-Guidance",
+        featured: true,
+        category: "Web App",
+    },
     {
         id: 5,
-        title: "Resume Builder App",
+        title: "Weatherly - Modern Weather Forecast App",
         description:
-            "A fully functional Resume Builder App using the MERN stack along with Tailwind CSS for a clean, modern UI.",
+            "A modern, responsive Weather App built with React and Tailwind CSS, featuring light/dark mode, real-time weather updates from the OpenWeatherMap API, and automatic location detection. Includes city search, temperature, humidity, wind speed, and weather icons.",
         image: PROJECT_IMG_5,
-        tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-        liveUrl: "https://youtu.be/q3u_fpkjLk8",
-        githubUrl: "#",
-        featured: false,
+        tags: ["React", "Tailwind CSS", "Geolocation", "OpenWeatherMap API", "Light/Dark Mode"],
+        liveUrl: "https://subhash519-weather.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/Weather-Forecast",
+        featured: true,
         category: "Web App",
     },
     {
         id: 6,
-        title: "Expense Tracker App",
+        title: "BudgetWise – Smart Budget Tracker",
         description:
-            "This app includes user authentication with JWT, income and expense tracking, interactive charts, and downloadable reports.",
+            "A responsive Budget Tracker App built with React, Tailwind CSS, and LocalStorage for managing income and expenses efficiently. It allows users to add, edit, and delete transactions, view total income, expenses, and balance, with light/dark mode, search & filters, data storage.",
         image: PROJECT_IMG_6,
-        tags: ["Next.js", "TypeScript", "Node.js", "MongoDb"],
-        liveUrl: "https://youtu.be/PQnbtnsYUho",
-        githubUrl: "#",
+        tags: ["React", "Tailwind CSS", "LocalStorage", "Budget Tracker", "Dark Mode"],
+        liveUrl: "https://subhash519-budget-tracker.netlify.app/",
+        githubUrl: "https://github.com/subhash-519/Budget-Tracker",
         featured: true,
         category: "Web App",
     },
-    {
-        id: 7,
-        title: "Polling App",
-        description:
-            "Polling app with features like user authentication, creating polls, voting, bookmarking, closing polls, and viewing results.",
-        image: PROJECT_IMG_7,
-        tags: ["React", "Framer Motion", "Tailwind", "Vercel"],
-        liveUrl: "#",
-        githubUrl: "#",
-        featured: false,
-        category: "Frontend",
-    },
+    // {
+    //     id: 7,
+    //     title: "Polling App",
+    //     description:
+    //         "Polling app with features like user authentication, creating polls, voting, bookmarking, closing polls, and viewing results.",
+    //     image: PROJECT_IMG_7,
+    //     tags: ["React", "Framer Motion", "Tailwind", "Vercel"],
+    //     liveUrl: "#",
+    //     githubUrl: "#",
+    //     featured: false,
+    //     category: "Frontend",
+    // },
 ];
 
 export const JOURNEY_STEPS = [
