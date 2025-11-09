@@ -38,3 +38,24 @@ portfolio/
 │ └── main.jsx
 ├── package.json
 └── README.md
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/portfolio.git
+
+# Navigate into the project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
