@@ -49,7 +49,7 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/subhash-519/portfolio.git
 
 # Navigate into the project folder
 cd portfolio
